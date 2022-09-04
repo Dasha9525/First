@@ -1,0 +1,52 @@
+h1 {
+   background-color: rgb(29, 123, 100);
+   color: white !important;
+   font-size: 50px;
+   text-align: center;
+}
+a {
+   color: rgb(35, 112, 98);
+   font-weight: bold;
+   text-decoration-color: rgb(168, 49, 43);
+}
+h2 {
+   background-color: rgb(176, 167, 167);
+   color: rgb(129, 68, 68) !important;
+   font-size: 30px;
+   text-align: center;
+}
+tr {
+   background-color: rgb(184, 210, 203);
+   color: rgb(21, 69, 53) !important;
+   font-size: 20px;
+   text-align: center;
+}
+a:link{
+   color: rgba(0, 102, 128, 0.727);
+   font-size: 15px;
+   background-color: azure;
+}
+a:visited{
+   color: rgba(43, 103, 32, 0.727);
+   background-color: rgb(206, 236, 214);
+}
+a:hover{
+   font-size: 25px;
+   color: rgb(128, 0, 92);
+}
+a:active{
+   background-color: aquamarine;
+}
+::selection{
+   color: aquamarine;
+   background: white;
+}
+img{
+   width: 200px;
+}
+a[href="https://yandex.ru/"]{
+   color: black;
+}
+a[href="https://www.youtube.com/"]{
+   color: rgb(120, 15, 88);
+}
